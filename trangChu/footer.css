@@ -1,0 +1,120 @@
+#footer{ 
+    margin-top: 50px;   
+    float: left;
+    width: 100%; 
+    background-color: #a60000; 
+}
+#footer_top{
+    padding-top: 20px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 308px;
+}
+.block{
+    float: left;
+    text-align: center;
+    margin-right: 70px;
+}
+.block_icon{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.block_content{
+    color: #fff;
+    margin-bottom: 16px;
+}
+#footer_bottom{
+    display: flex;
+    background-color: #fff;
+    padding: 80px 0;  
+    width: 100%;
+}
+#container_footer_bottom{
+    margin-left: 400px;
+    width: 100%;
+    display: flex;
+}
+.block_1{
+    text-align: left;
+    margin-right: 20px;
+}
+.header_block{
+    margin-bottom: 15px;
+}
+.row_block{
+    display: block; /*Mỗi thẻ một dòng*/
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.row_block:hover{
+    color: #a60000;
+    cursor: pointer;
+}
+.row_block_2{
+    display: flex;
+}
+.block_icon{
+    height: 30px;
+    width: 30px;
+}
+.content_row_block{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#social_icon_facebook{
+    background: url('/icon/facebook_480px.png') no-repeat center center;
+    height: 30px;
+    width: 30px;
+    outline: none;
+    border: none;
+    background-size: contain;
+    margin-right: 5px;
+}
+#social_icon_twitter{
+    background: url('/icon/Twitter_96px.png') no-repeat center center;
+    height: 30px;
+    width: 30px;
+    outline: none;
+    border: none;
+    background-size: contain;
+    margin-right: 5px;
+}
+#social_icon_youtube{
+    background: url('/icon/YouTube_480px.png') no-repeat center center;
+    height: 30px;
+    width: 30px;
+    outline: none;
+    border: none;
+    background-size: contain;
+    margin-right: 5px;
+}
+#social_icon_facebook:hover{
+    cursor: pointer;
+    background: url('/icon/Facebook_240px.png')no-repeat center center;
+    height: 30px;
+    width: 30px;
+    outline: none;
+    border: none;
+    background-size: contain;   
+}
+#social_icon_twitter:hover{
+    cursor: pointer;
+    background: url('/icon/Twitter_Squared_240px.png')no-repeat center center;
+    height: 30px;
+    width: 30px;
+    outline: none;
+    border: none;
+    background-size: contain;   
+}
+#social_icon_youtube:hover{
+    cursor: pointer;
+    background: url('/icon/youtube_squared_512px.png')no-repeat center center;
+    height: 30px;
+    width: 30px;
+    outline: none;
+    border: none;
+    background-size: contain;   
+}

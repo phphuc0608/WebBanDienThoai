@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="body.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="/jquery.js"></script>
+    <script type="text/javascript" src="/changePage.js"></script>
+    <title>Samsung</title>
+</head>
+<body id="body">
+    <div id="header">
+        <div id = "header_content">
+            <div id="header_left">
+                <img src="/img/logo/logo.png" width="100" height="50" onclick="goToPage('/trangChu/trangChu.html')">
+            </div>
+            <div id="header_center">
+                <input type="text" placeholder="Search...">
+                <button class="search_button"></button>
+            </div>
+            <div id ="header_right">
+                <div id="header_hotline">
+                    <div id="logo_phone"></div>
+                    <div id="phone_number">0777.759.555</div>
+                    <div id="hotline_text">Hotline bán hàng</div>
+                </div>
+                <div id="header_minicart">
+                    <div id="cart_icon">
+                        <span id="shop_button"></span>
+                        <span id="number_cart">0</span>
+                    </div>
+                    <div id="cart_popup">
+                        <div id="popup_content">
+                            <div id="total_count_text">
+                                <span>0 ITEMS</span>
+                                <a class="text_pull_right" href="">Xem giỏ hàng</a>
+                            </div>
+                            <div id="cart_list">
+                                <div id="cart_message">Chưa có sản phẩm trong giỏ hàng</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <div id="menu_center">               
+                <div class="menu_item" onClick="goToPage('/dienThoai/dienThoai.html')">
+                    <div class="mobile_icon"></div>
+                    ĐIỆN THOẠI
+                    <div class="sub_menu">
+                        <div class="sub_menu_item" onClick="goToPage('/samsung/samSung.html')">Samsung</div>
+                        <div class="sub_menu_item">Iphone</div>
+                        <div class="sub_menu_item">Sony</div>
+                        <div class="sub_menu_item">Oppo</div>
+                        <div class="sub_menu_item">Xiaomi</div>
+                        <div class="sub_menu_item">Asus</div>
+                        <div class="sub_menu_item">HTC</div>
+                        <div class="sub_menu_item">Huawei</div>
+                        <div class="sub_menu_item">LG</div>
+                        <div class="sub_menu_item">Blackberry</div>
+                    </div> 
+                </div>     
+                <div class="menu_item">
+                    <div class="mobile_icon"></div>
+                    SAMSUNG
+                </div>
+                <div class="menu_item">
+                    <div class="mobile_icon"></div>
+                    IPHONE
+                </div>
+                <div class="menu_item">
+                    <div class="mobile_icon"></div>
+                    SONY
+                </div>
+                <div class="menu_item">
+                    <div class="headphone_icon"></div>
+                    PHỤ KIỆN
+                </div>
+                <div class="menu_item">
+                    <div class="paper_icon"></div>
+                    TIN CÔNG NGHỆ
+                </div>
+                <div class="menu_item">
+                    <div class="shopping_cart_icon"></div>
+                    MUA TRẢ GÓP
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="main_top">
+            <div class="brand">Galaxy S10</div>
+            <div class="brand">Galxy S9</div>
+            <div class="brand">Note 10</div>
+            <div class="brand">Note 20</div>
+            <div class="brand">Note 9</div>
+            <div class="brand">S20</div>
+        </div>
+        <div id="main_center">
+            <div id="main_center_left">
+                <div class="price">Từ 4 - 7 triệu</div>
+                <div class="price">Từ 7 - 13 triệu</div>
+                <div class="price">Trên 13 triệu</div>
+                <div class="price">Trên 16 triệu</div>
+            </div>
+            <div id="main_center_right">
+                <div class="sort_left">Sắp xếp theo: </div>
+                <select class="sort_right" placeholder="Mới nhất">
+                    <option value="newest" class="sort_item">Mới nhất</option>
+                    <option value="high_to_low" class="sort_item">Thứ tự theo giá: cao đến thấp</option>
+                    <option value="low_to_high" class="sort_item">Thứ tự theo giá: thấp đến cao</option>
+                </select>
+            </div>
+        </div>
+        <div id="main_bottom">
+            <div id="main_bottom_container">
+                <div class = "product">
+                    <div class = "product_info_container">
+                        <div class="product_img">
+                            <img src="/img/products/thegioididong/samsung/Galaxy-S22-Black-600x600.jpg">
+                        </div>
+                        <div class="product_name">
+                            Samsung Galaxy S22
+                        </div>
+                        <div class = "box_prices">
+                            <div class = "box_prices2">
+                                <p class="product_price_show">
+                                    18.490.000&nbsp;₫
+                                </p>
+                                <p class="product_price_through">
+                                    23.490.000&nbsp;₫
+                                </p>
+                            </div>    
+                        </div>
+                        <div class = "button_wishlist">
+                            <p class = "title_button">Thêm vào giỏ hàng</p>
+                            <img src = "/icon/heart_500px.png" class = "heart">
+                        </div>
+                    </div>
+                </div>
+                <div class = "product">
+                    <div class = "product_info_container">
+                        <div class="product_img">
+                            <img src="/img/products/thegioididong/samsung/Galaxy-S22-Plus-White-600x600.jpg">
+                        </div>
+                        <div class="product_name">
+                            Samsung Galaxy S22 Plus
+                        </div>
+                        <div class = "box_prices">
+                            <div class = "box_prices2">
+                                <p class="product_price_show">
+                                    18.490.000&nbsp;₫
+                                </p>
+                                <p class="product_price_through">
+                                    23.490.000&nbsp;₫
+                                </p>
+                            </div>    
+                        </div>
+                        <div class = "button_wishlist">
+                            <p class = "title_button">Thêm vào giỏ hàng</p>
+                            <img src = "/icon/heart_500px.png" class = "heart">
+                        </div>
+                    </div>
+                </div>
+                <div class = "product">
+                    <div class = "product_info_container">
+                        <div class="product_img">
+                            <img src="/img/products/thegioididong/samsung/Galaxy-S22-Ultra-Burgundy-600x600.jpg">
+                        </div>
+                        <div class="product_name">
+                            Samsung Galaxy S22 Ultra
+                        </div>
+                        <div class = "box_prices">
+                            <div class = "box_prices2">
+                                <p class="product_price_show">
+                                    18.490.000&nbsp;₫
+                                </p>
+                                <p class="product_price_through">
+                                    23.490.000&nbsp;₫
+                                </p>
+                            </div>    
+                        </div>
+                        <div class = "button_wishlist">
+                            <p class = "title_button">Thêm vào giỏ hàng</p>
+                            <img src = "/icon/heart_500px.png" class = "heart">
+                        </div>
+                    </div>
+                </div>
+                <div class = "product">
+                    <div class = "product_info_container">
+                        <div class="product_img">
+                            <img src="/img/products/thegioididong/samsung/sam-sung-galaxy-a23-5g-den-thumb-600x600.jpg">
+                        </div>
+                        <div class="product_name">
+                            Samsung Galaxy A23
+                        </div>
+                        <div class = "box_prices">
+                            <div class = "box_prices2">
+                                <p class="product_price_show">
+                                    18.490.000&nbsp;₫
+                                </p>
+                                <p class="product_price_through">
+                                    23.490.000&nbsp;₫
+                                </p>
+                            </div>    
+                        </div>
+                        <div class = "button_wishlist">
+                            <p class = "title_button">Thêm vào giỏ hàng</p>
+                            <img src = "/icon/heart_500px.png" class = "heart">
+                        </div>
+                    </div>
+                </div>
+                <div class = "product">
+                    <div class = "product_info_container">
+                        <div class="product_img">
+                            <img src="/img/products/thegioididong/samsung/samsung-galaxy-a04s-den-thumb-1-600x600.jpg">
+                        </div>
+                        <div class="product_name">
+                            Samsung Galaxy A04S
+                        </div>
+                        <div class = "box_prices">
+                            <div class = "box_prices2">
+                                <p class="product_price_show">
+                                    18.490.000&nbsp;₫
+                                </p>
+                                <p class="product_price_through">
+                                    23.490.000&nbsp;₫
+                                </p>
+                            </div>    
+                        </div>
+                        <div class = "button_wishlist">
+                            <p class = "title_button">Thêm vào giỏ hàng</p>
+                            <img src = "/icon/heart_500px.png" class = "heart">
+                        </div>
+                    </div>
+                </div>
+                <div class = "product">
+                    <div class = "product_info_container">
+                        <div class="product_img">
+                            <img src="/img/products/thegioididong/samsung/samsung-galaxy-z-flip4-5g-128gb-thumb-tim-600x600.jpg">
+                        </div>
+                        <div class="product_name">
+                            Samsung Galaxy Z Flip4
+                        </div>
+                        <div class = "box_prices">
+                            <div class = "box_prices2">
+                                <p class="product_price_show">
+                                    18.490.000&nbsp;₫
+                                </p>
+                                <p class="product_price_through">
+                                    23.490.000&nbsp;₫
+                                </p>
+                            </div>    
+                        </div>
+                        <div class = "button_wishlist">
+                            <p class = "title_button">Thêm vào giỏ hàng</p>
+                            <img src = "/icon/heart_500px.png" class = "heart">
+                        </div>
+                    </div>
+                </div>
+                <div class = "product">
+                    <div class = "product_info_container">
+                        <div class="product_img">
+                            <img src="/img/products/thegioididong/samsung/samsung-galaxy-a23-cam-thumb-600x600.jpg">
+                        </div>
+                        <div class="product_name">
+                            Samsung Galaxy A23
+                        </div>
+                        <div class = "box_prices">
+                            <div class = "box_prices2">
+                                <p class="product_price_show">
+                                    18.490.000&nbsp;₫
+                                </p>
+                                <p class="product_price_through">
+                                    23.490.000&nbsp;₫
+                                </p>
+                            </div>    
+                        </div>
+                        <div class = "button_wishlist">
+                            <p class = "title_button">Thêm vào giỏ hàng</p>
+                            <img src = "/icon/heart_500px.png" class = "heart">
+                        </div>
+                    </div>
+                </div>
+                <div class = "product">
+                    <div class = "product_info_container">
+                        <div class="product_img">
+                            <img src="/img/products/thegioididong/samsung/samsung-galaxy-a73-5g-xam-thumb-600x600.jpg">
+                        </div>
+                        <div class="product_name">
+                            Samsung Galaxy A73
+                        </div>
+                        <div class = "box_prices">
+                            <div class = "box_prices2">
+                                <p class="product_price_show">
+                                    18.490.000&nbsp;₫
+                                </p>
+                                <p class="product_price_through">
+                                    23.490.000&nbsp;₫
+                                </p>
+                            </div>    
+                        </div>
+                        <div class = "button_wishlist">
+                            <p class = "title_button">Thêm vào giỏ hàng</p>
+                            <img src = "/icon/heart_500px.png" class = "heart">
+                        </div>
+                    </div>
+                </div>
+                <div class = "product">
+                    <div class = "product_info_container">
+                        <div class="product_img">
+                            <img src="/img/products/thegioididong/samsung/samsung-galaxy-a73-5g-xanh-thumb-600x600.jpg">
+                        </div>
+                        <div class="product_name">
+                           Samsung Galaxy A73
+                        </div>
+                        <div class = "box_prices">
+                            <div class = "box_prices2">
+                                <p class="product_price_show">
+                                    18.490.000&nbsp;₫
+                                </p>
+                                <p class="product_price_through">
+                                    23.490.000&nbsp;₫
+                                </p>
+                            </div>    
+                        </div>
+                        <div class = "button_wishlist">
+                            <p class = "title_button">Thêm vào giỏ hàng</p>
+                            <img src = "/icon/heart_500px.png" class = "heart">
+                        </div>
+                    </div>
+                </div>
+                <div class = "product">
+                    <div class = "product_info_container">
+                        <div class="product_img">
+                            <img src="/img/products/thegioididong/samsung/samsung-galaxy-s20-fan-edition-xanh-la-thumbnew-600x600.jpeg">
+                        </div>
+                        <div class="product_name">
+                            Samsung Galaxy S20
+                        </div>
+                        <div class = "box_prices">
+                            <div class = "box_prices2">
+                                <p class="product_price_show">
+                                    18.490.000&nbsp;₫
+                                </p>
+                                <p class="product_price_through">
+                                    23.490.000&nbsp;₫
+                                </p>
+                            </div>    
+                        </div>
+                        <div class = "button_wishlist">
+                            <p class = "title_button">Thêm vào giỏ hàng</p>
+                            <img src = "/icon/heart_500px.png" class = "heart">
+                        </div>
+                    </div>
+                </div>
+                <div class = "product">
+                    <div class = "product_info_container">
+                        <div class="product_img">
+                            <img src="/img/products/thegioididong/samsung/Samsung-Galaxy-S21-FE-den-600x600.jpg">
+                        </div>
+                        <div class="product_name">
+                            Samsung Galaxy S21 FE
+                        </div>
+                        <div class = "box_prices">
+                            <div class = "box_prices2">
+                                <p class="product_price_show">
+                                    18.490.000&nbsp;₫
+                                </p>
+                                <p class="product_price_through">
+                                    23.490.000&nbsp;₫
+                                </p>
+                            </div>    
+                        </div>
+                        <div class = "button_wishlist">
+                            <p class = "title_button">Thêm vào giỏ hàng</p>
+                            <img src = "/icon/heart_500px.png" class = "heart">
+                        </div>
+                    </div>
+                </div>
+                <div class = "product">
+                    <div class = "product_info_container">
+                        <div class="product_img">
+                            <img src="/img/products/thegioididong/samsung/samsung-galaxy-s23-2-600x600.jpg">
+                        </div>
+                        <div class="product_name">
+                            Samsung Galaxy S23
+                        </div>
+                        <div class = "box_prices">
+                            <div class = "box_prices2">
+                                <p class="product_price_show">
+                                    18.490.000&nbsp;₫
+                                </p>
+                                <p class="product_price_through">
+                                    23.490.000&nbsp;₫
+                                </p>
+                            </div>    
+                        </div>
+                        <div class = "button_wishlist">
+                            <p class = "title_button">Thêm vào giỏ hàng</p>
+                            <img src = "/icon/heart_500px.png" class = "heart">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer_top">
+            <div class="block">
+                <img src="/icon/truck_480px.png" class="block_icon">
+                <div class="block_content">Vận chuyển toàn quốc</div>
+            </div>
+            <div class="block">
+                <img src="/icon/repeat_512px.png" class="block_icon">
+                <div class="block_content">1 đổi 1 trong vòng 30 ngày</div>
+            </div>
+            <div class="block">
+                <img src="/icon/tags_480px.png" class="block_icon">
+                <div class="block_content">Giá chuẩn, không giá sốc</div>
+            </div>
+            <div class="block">
+                <img src="/icon/shield_500px.png" class="block_icon">
+                <div class="block_content">Bảo hành máy 12 tháng</div>
+            </div>
+        </div>
+        <div id="footer_bottom">
+            <div id="container_footer_bottom">
+                <div class="block_1">
+                    <div class="header_block">CHĂM SÓC KHÁCH HÀNG</div>
+                    <div class="row_list">
+                        <a class="row_block" href="">Hướng dẫn thanh toán</a>
+                        <a class="row_block" href="">Hướng dẫn đặt hàng</a>
+                        <a class="row_block" href="">Mua trả góp</a>
+                        <a class="row_block" href="">Quy định bảo hành - đổi trả</a>
+                        <a class="row_block" href="">Chính sách giao hàng tận nơi</a>
+                    </div>
+                </div>
+                <div class="block_1">
+                    <div class="header_block">VỀ CỬA HÀNG</div>
+                    <a class="row_block" href="">Giới thiệu</a>
+                    <a class="row_block" href="">Tuyển dụng</a>
+                    <a class="row_block" href="">Điều khoản sử dụng</a>
+                    <a class="row_block" href="">Chính sách chất lượng</a>
+                    <a class="row_block" href="">Chính sách bảo mật</a>
+                </div>
+                <div id="block_2">
+                    <div class="header_block">CỬA HÀNG</div>
+                    <div class="row_block_2">
+                        <img src="/icon/Location_480px.png" class="block_icon">
+                        <div class="content_row_block">Địa chỉ:998/49 Quan Trung, Quận Gò Vấp, TP Hồ Chí Minh</div>
+                    </div>
+                    <div class="row_block_2">
+                        <img src="/icon/Phone Map Pin_144px.png" class="block_icon">
+                        <div class="content_row_block">Hotline: 0777.759.555</div>
+                    </div>
+                    <div class="row_block_2">
+                        <img src="/icon/Email_500px.png" class="block_icon">
+                        <div class="content_row_block">Email: info@gmail.com</div>
+                    </div>
+                    <div class="row_block_2">
+                        <a id="social_icon_facebook"></a>
+                        <a id="social_icon_twitter"></a>
+                        <a id="social_icon_youtube"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

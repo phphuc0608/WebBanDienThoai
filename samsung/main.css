@@ -1,0 +1,142 @@
+#main{	
+	width:1200px;
+	margin: 0 auto;
+}
+#main_top{
+    float: left;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+.brand{
+    border: 1px solid gray;
+    padding: 5px 35.3px;
+}
+.brand:hover{
+    background-color: #a60000;
+    color: #fff;
+    cursor: pointer;
+}
+#main_center{
+    float: left;
+    width: 100%;
+    background-color: #DCDCDC;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+#main_center_left{
+    float: left;
+    display: flex;
+}
+.price{
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+    margin-right: 10px;
+    color: #4F94CD;
+}
+.price:hover{
+    cursor: pointer;
+}
+#main_center_right{
+    float: right;
+}
+.sort_left{
+    float: left;
+    margin-right: 10px;
+    padding: 4px 0;
+}
+.sort_right{
+    float: left;
+    height: 25px;
+    width: 150px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    margin-top: 3px;
+}
+.sort_right:hover{
+    cursor: default;
+}
+#main_bottom_container{
+    float: left;
+}
+.product{
+	width: 298px;
+    margin-right: 2px;
+    float: left;
+    margin-bottom: 5px;
+}
+.product_info_container{
+	float: left;
+    width: 100%;
+    background-color: white;
+    /* border-radius: 20px; */
+    box-shadow: none;
+    height: calc(95% - 20px);
+    margin: auto;   
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%); 
+}
+.product_info_container:hover{
+    box-shadow:none;
+}
+.product_img{
+	text-align: center;
+}
+.product_img img{
+    margin: 10px 0 0;
+    width: 160px;
+}
+.product_name{
+    margin-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+	font-size: 12pt;
+}
+.box_prices2{
+    align-items: flex-end;
+    color: #444;
+    display: flex;
+    font-family: sans-serif;
+    line-height: 1.4;
+    padding-left: 5px;
+}
+.product_price_show{
+    color: #d70018;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 10px!important;  
+}
+.product_price_through{
+    color: #707070; 
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px 10px; 
+    text-decoration: line-through;
+}
+.button_wishlist{
+    float: right;
+    margin-top: 5px;
+}
+.title_button{
+    float: left;
+    color: #777;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+.title_button:hover{
+	cursor: pointer;
+	color: #d70018;
+
+}
+.heart{
+    height: 20px;
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}

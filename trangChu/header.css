@@ -1,0 +1,235 @@
+#header{
+    width: 100%;
+    background-color: #D4171A;
+    float: left;
+}
+#header_content{
+    margin: 0px 50px;
+    display: flex;
+    align-items: center;
+}
+#header_left{
+    float: left;
+    font-size: 22pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 200px;
+}
+#header_center{
+    float: left;
+    background-color: #fff;
+    width: 40   0px;
+    padding: 5px 10px;
+    margin-left: 135px; 
+    border-radius: 30px;
+    height: 30px;
+    align-items: center;
+    display:flex;
+}
+#header #header_content #header_center input{
+    width: 350px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+.search_button{
+    background: url('/icon/search.png') no-repeat center center;
+    float: left;
+    width: 50px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-size: contain;
+}   
+.search_button:hover{
+    /*thay doi hinh dang chuot trong man hinh*/
+    cursor: pointer;
+}
+#header_right{
+    float: left;
+    margin-left: 77.359px;
+}
+#header_hotline{
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 18px;
+    padding-right: 35px;
+    border-right: 1px solid #fff;
+}
+#box_phone{
+    float: left;
+}
+#phone_number{
+    float: right;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 4px;
+}
+#logo_phone{
+    float: left;
+    background: url('/icon/phone_500px.png') no-repeat center center;
+    width: 25px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-size: contain;
+    margin-right: 2px;
+}
+#hotline_text{
+    font-size: 13px;
+    color: #fff;
+    margin-left: 30px;
+}
+#header_minicart{
+    float:left;
+    margin-top: 10px;
+}
+#cart_icon{
+    float: left;
+    min-width: 32px;
+}
+#shop_button{
+    float: left;
+    background: url('/icon/shopping_cart_480px.png') no-repeat center center;
+    width: 40px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-size: contain;
+}
+#number_cart{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #ff5b5b;
+}
+#cart_popup{
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+    margin-top: 48px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    display: none;
+}
+#popup_content{
+    background-color: #fff;
+    padding: 10px 15px 5px;
+}
+#total_count_text{
+    padding: 12px 10px;
+    border-bottom: solid 1px #e7e7e7;
+}
+.text_pull_right{
+    float: right;
+    outline: none!important;
+}
+#cart_message{
+    text-align: center;
+    justify-content: center;
+    padding: 8px 0 0;
+    font-weight: 400;
+}
+#shop_button:hover{
+    cursor: pointer;
+}
+#header_minicart:hover #cart_popup{
+    display: block;
+}
+#menu{
+    float: left;
+    background-color: #f2f2f2;
+    padding: 0 0 0 0;
+    width: 100%;  
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);  
+}
+#menu_center{
+    float: left;
+    margin-left: 250px;
+}
+.menu_item{
+    float: left;
+    margin: 0 1px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 10px 16px 10px 16px;
+}
+.mobile_icon{
+    float: left;
+    background: url('/icon/Smartphone_500px.png') no-repeat center center;
+    width: 18px;
+    height: 18px;
+    outline: none;
+    border: none;
+    background-size: contain;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.headphone_icon{
+    float: left;
+    background: url('/icon/headphones_96px.png') no-repeat center center;
+    width: 18px;
+    height: 18px;
+    outline: none;
+    border: none;
+    background-size: contain;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.paper_icon{
+    float: left;
+    background: url('/icon/newspaper_144px.png') no-repeat center center;
+    width: 18px;
+    height: 18px;
+    outline: none;
+    border: none;
+    background-size: contain;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.shopping_cart_icon{
+    float: left;
+    background: url('/icon/shopping_cart_black_480px.png') no-repeat center center;
+    width: 18px;
+    height: 18px;
+    outline: none;
+    border: none;
+    background-size: contain;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.menu_item:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+.sub_menu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+    float: left;
+    margin-top: 10px;
+    width: 160px;
+    margin-left: -50px;
+    z-index: 1;
+    padding: 0 10px;
+    min-width: 200px;
+}
+.sub_menu_item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sub_menu_item:hover{
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+.menu_item:hover .sub_menu{
+    display: block;
+}
